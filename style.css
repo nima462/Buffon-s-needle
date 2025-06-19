@@ -1,0 +1,75 @@
+canvas{
+    border : 5px solid white;
+    background-color: black;
+    
+}
+
+body{
+    background-color: grey;
+    color: white;
+}
+
+
+
+input{
+    background-color: #8dc8d3;
+    border: none;
+    padding: 15px 32px;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 4px 2px;
+}
+
+.Pi{
+    width: 1000px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(192, 219, 219);
+    font-style:italic;
+}
+
+
+.settings{
+    position: absolute;
+    top : 100px;
+    left : 1100px;
+    text-align: center;
+    border-left: 5px solid rgb(192, 206, 224) ;
+    border-right: 5px solid rgb(192, 206, 224);
+    padding-right: 40px ;
+    padding-left: 40px;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(192, 219, 219) ;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.size{
+    display: block;
+    
+    padding-top: 100px;
+}
+
+.dernier{
+    padding-bottom: 100px;
+}
+
+.nice-button {
+    background-color: #9bd5dd; 
+    border: none;
+    padding: 15px 32px;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.nice-button:hover {
+    background-color: #8dc8d3;
+}
